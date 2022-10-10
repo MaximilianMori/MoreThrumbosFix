@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--========== BLOND Thrumbo  ==========-->
+			<li Class="PatchOperationModReplace">
+				<xpath>/Defs/ThingDef[defName = "BlondThrumbo"]/description</xpath>
+				<value>
+				<description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. </description>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--========== GINGER Thrumbo  ==========-->
+			<li Class="PatchOperationModReplace">
+				<xpath>/Defs/ThingDef[defName = "GingerThrumbo"]/description</xpath>
+				<value>
+				<description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. </description>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+		<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--========== Black Thrumbo  ==========-->
+			<li Class="PatchOperationReplaceModExtension">
+				<xpath>/Defs/ThingDef[defName = "BlackThrumbo"]/description</xpath>
+				<value>
+				<description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. </description>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+		<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--========== Silver Thrumbo  ==========-->
+			<li Class="PatchOperationReplaceModExtension">
+				<xpath>/Defs/ThingDef[defName = "SilverThrumbo"]/description</xpath>
+				<value>
+				<description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. </description>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--========== Ancient Bionic Thrumbo  ==========-->
+			<li Class="PatchOperationReplaceModExtension">
+				<xpath>/Defs/ThingDef[defName = "AncientBionicThrumbo"]/description</xpath>
+				<value>
+				<description>A gigantic, graceful creature of unknown origin. Shaped as a brilliant machine of war, it is built with an assembler capable of producing another bionic Thrumbo. Sexual reproduction is still a must, as the care of a mother and father ensure their survival. These creatures are built-in with a nutrient dispenser to supply themselves with a long-term source of energy and nutrition. Armed with a full plasteel skeleton, hydraulic jaw, and heavy metallic horn, these Thrumbos are not to be challenged by those unprepared. This one has seen better days, and is worn down from age and combat.</description>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+		<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!--========== Bionic Thrumbo  ==========-->
+			<li Class="PatchOperationReplaceModExtension">
+				<xpath>/Defs/ThingDef[defName = "BionicThrumbo"]/description</xpath>
+				<value>
+				<description>A gigantic, graceful creature of unknown origin. Shaped as a brilliant machine of war, it is built with an assembler capable of producing another bionic Thrumbo. Sexual reproduction is still a must, as the care of a mother and father ensure their survival. These creatures are built-in with a nutrient dispenser to supply themselves with a long-term source of energy and nutrition. Armed with a full plasteel skeleton, hydraulic jaw, and heavy metallic horn, these Thrumbos are not to be challenged by those unprepared.</description>
+			</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "ThrumboMilk"]/description</xpath>
+      <value>
+      <description>Milk from a Thrumbo.</description>
+  </value>
+    </li>
+    </operations>
+  </Operation>
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "GingerThrumboWool"]/description</xpath>
+      <value>
+  <description>Soft, light and resistant Ginger Thrumbo wool. This material is given a high price in many sectors due to its properties. Anyone who can find, tame and breed these magnificient animals for wool production are very lucky, for they've found a gold mine.</description>
+  </value>
+     </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "SilverThrumboWool"]/description</xpath>
+      <value>
+  <description>Soft and light, extremely resistant and protective black Thrumbo wool. This material is prized in all sectors due to its extreme rarity as Tal'Arian Thrumbos don't appear very often in nature.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "BlackThrumboWool"]/description</xpath>
+      <value>
+  <description>Soft and light, extremely resistant and protective black Thrumbo wool. This material is prized in all sectors due to its extreme rarity as Tal'Arian Thrumbos don't appear very often in nature.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "BlondThrumboLeather"]/description</xpath>
+      <value>
+  <description>Furry pelt of a blond thrumbo. Luxurious and extraordinarily durable. Used for the high-quality crafts for its insulation. This fur is well-valued in all sectors.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "GingerThrumboLeather"]/description</xpath>
+      <value>
+  <description>Furry pelt of a ginger thrumbo. Luxurious and extraordinarily durable. Used for the high-quality crafts for its insulation. This fur is well-valued in all sectors.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/RecipeDef[defName = "MakeMealThrumboCheese"]/description</xpath>
+      <value>
+  <description>Make one of the best cheeses in all of the Rim. This cheese is know to be luxurious in all sectors. Some rich traders go to rimworlds just to get this cheese.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/RecipeDef[defName = "MakeWhiteChocolate"]/description</xpath>
+      <value>
+  <description>Make white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+    <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/RecipeDef[defName = "Make4xMealThrumboCheese"]/description</xpath>
+      <value>
+  <description>Make 4x the ammount of the best cheese in all of the Rim. This cheese is known to be luxurious in all sectors. Some rich traders go to rimworlds just to get this cheese.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/RecipeDef[defName = "Make4xWhiteChocolate"]/description</xpath>
+      <value>
+      <description>Make 4x the ammount of white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "BlondThrumboHorn"]/description</xpath>
+      <value>
+  <description>A blond Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "GingerThrumboHorn"]/description</xpath>
+      <value>
+  <description>A ginger Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon.</description>
+</value>
+    </li>
+    </operations>
+<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "BlackThrumboHorn"]/description</xpath>
+      <value>
+  <description>A black Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "SilverThrumboHorn"]/description</xpath>
+      <value>
+  <description>A silver Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "BionicThrumboHorn"]/description</xpath>
+      <value>
+  <description>A resilient, heavy and very strong bionic Thrumbo horn. It's too heavy to be used as a held weapon, but it has its value.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "AncientBionicThrumboHorn"]/description</xpath>
+      <value>
+  <description>An ancient bionic Thrumbo horn. It's broken, but it has its value.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThingDef[defName = "MealThrumboCheese"]/description</xpath>
+      <value>
+  <description>Thrumbo milk cheese. It is one of best cheeses in the Rim.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThoughtDef[defName = "AngryThrumboNoises"]/description</xpath>
+      <value>
+  <description>Ominous sounds were coming from this Thrumbo... I'm afraid to face it.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThoughtDef[defName = "AncientAngryThrumboNoises"]/description</xpath>
+      <value>
+  <description>Terrifying sounds were coming from that Thrumbo... I want to get away.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThoughtDef[defName = "HappyThrumboNoises"]/description</xpath>
+      <value>
+  <description>That Thrumbo was so nice. I want to hear more!</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThoughtDef[defName = "AncientHappyThrumboNoises"]/description</xpath>
+      <value>
+  <description>That Thrumbo tried its best to be nice. I'm happy.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+    <li Class="PatchOperationReplaceModExtension">
+      <xpath>Defs/ThoughtDef[defName = "ThrumboControllerDefeated"]/description</xpath>
+      <value>
+  <description>We defeated the machine controlling those Thrumbos and set them free. I feel strange, but also very relaxed.</description>
+</value>
+    </li>
+    </operations>
+  </Operation>
+</Patch>
+
+
